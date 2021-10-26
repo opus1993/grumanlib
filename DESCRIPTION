@@ -1,0 +1,25 @@
+Package: grumanlib
+Type: Package
+Title: Personal R Package of Jim Gruman
+Version: 0.1.0.9999
+Authors@R: c(person("Jim", "Gruman", email = "jim.gruman@gmail.com", role = c("aut", "cre")))
+Maintainer: Jim Gruman <jim.gruman@gmail.com>
+Description: R functions for my personal use.
+License: MIT + file LICENSE
+LazyData: TRUE
+Encoding: UTF-8
+Imports:
+    dplyr (>= 1.0.0),
+    ggplot2,
+    glue,
+    knitr,
+    prismatic,
+    purrr,
+    tibble,
+    viridis,
+    yardstick
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0),
+    hrbrthemes (>= 3.4.0)
+Config/testthat/edition: 3
