@@ -16,8 +16,7 @@ Imports:
     prismatic,
     purrr,
     tibble,
-    viridis,
-    yardstick
+    viridis
 RoxygenNote: 7.1.2
 Suggests: 
     testthat (>= 3.0.0),
